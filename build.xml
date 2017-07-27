@@ -1,7 +1,7 @@
 <project name="java tasks" default="run">
 <target name="compile" description="compile the java files">
 <mkdir dir="build/classes"/>
-<javac srcdir="src" destdir="build/classes"/>
+<javac srcdir="src" destdir1="build/classes"/>
 </target>
 <target name="package" depends="compile" description="packaging  the files">
 <mkdir dir="build/jars"/>
